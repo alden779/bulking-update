@@ -1,27 +1,23 @@
-GAIN 50 PWA v3.1 - Validated Calories
+GAIN 50 PWA v3
 
-Upload semua file ke root GitHub Pages.
+Upload semua file ini ke root repository GitHub Pages:
+- index.html
+- manifest.webmanifest
+- service-worker.js
+- icon-192.png
+- icon-512.png
 
-Perubahan v3.1:
-- Database kalori dikoreksi dengan porsi standar.
-- Makanan utama mengacu TKPI/BPOM PJAS (yang merujuk TKPI, AFCT, PPKP).
-- Dancow FortiGro Coklat: 160 kkal per sajian ±38 g berdasarkan situs resmi Dancow.
-- Sumber ditampilkan pada setiap baris makanan di menu Meals.
-- Meal plan 7 hari tetap tanpa ikan.
+Fitur:
+- Meal plan otomatis 7 hari tanpa ikan
+- Mode manual, pilih makanan dan jumlah porsi
+- Kalkulasi kalori
+- Dancow FortiGro Coklat 39 g = 160 kkal
+- Workout Senin/Rabu/Jumat, dibagi Morning dan Evening
+- Checklist per gerakan
+- Progress berat dan kalori
+- History harian
+- LocalStorage
+- Export / Import backup
+- PWA + offline
 
-Contoh nilai yang dipakai:
-- Nasi putih 180 kkal/100 g -> porsi 150 g = 270 kkal
-- Telur ayam dadar 251 kkal/100 g -> porsi 55 g = 138 kkal
-- Telur ayam ceplok 383 kkal/100 g -> porsi 50 g = 192 kkal
-- Telur ayam rebus 170 kkal/100 g -> porsi 55 g = 94 kkal
-- Ayam goreng 283 kkal/100 g
-- Tempe goreng 350 kkal/100 g
-- Tahu goreng 115 kkal/100 g
-- Plecing kangkung 75 kkal/100 g
-- Roti putih 248 kkal/100 g -> 25 g = 62 kkal
-- Pisang Ambon 108 kkal/100 g
-- Alpukat 85 kkal/100 g
-- Nasi goreng 276 kkal/100 g
-- Mi goreng 468 kkal/100 g
-
-Catatan: masakan warteg dapat berbeda karena minyak, resep, tulang, dan ukuran porsi. Karena itu aplikasi menggunakan porsi standar yang eksplisit.
+Kalori makanan non-kemasan adalah estimasi per porsi. Porsi, minyak, dan resep warteg dapat membuat angka aktual berbeda.
