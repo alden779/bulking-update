@@ -1,13 +1,23 @@
-GAIN 50 - Level 2 PWA
+GAIN 50 PWA v3
 
-Upload semua file di folder ini ke root repository GitHub Pages:
+Upload semua file ini ke root repository GitHub Pages:
 - index.html
 - manifest.webmanifest
 - service-worker.js
 - icon-192.png
 - icon-512.png
 
-PWA membutuhkan HTTPS. GitHub Pages sudah menyediakan HTTPS.
+Fitur:
+- Meal plan otomatis 7 hari tanpa ikan
+- Mode manual, pilih makanan dan jumlah porsi
+- Kalkulasi kalori
+- Dancow FortiGro Coklat 39 g = 160 kkal
+- Workout Senin/Rabu/Jumat, dibagi Morning dan Evening
+- Checklist per gerakan
+- Progress berat dan kalori
+- History harian
+- LocalStorage
+- Export / Import backup
+- PWA + offline
 
-Data tetap disimpan di LocalStorage browser/perangkat.
-Gunakan Export Data secara berkala untuk membuat backup JSON.
+Kalori makanan non-kemasan adalah estimasi per porsi. Porsi, minyak, dan resep warteg dapat membuat angka aktual berbeda.
